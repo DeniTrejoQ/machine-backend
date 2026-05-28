@@ -8,6 +8,7 @@ from passlib.context import CryptContext
 from sqlalchemy import select
 from sqlalchemy.orm import Session
 
+from . import config  # noqa: F401
 from .database import get_db
 from .models import Employee
 

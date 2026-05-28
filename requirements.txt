@@ -4,9 +4,11 @@ sqlalchemy==2.0.36
 psycopg2-binary==2.9.10
 pandas==2.2.3
 python-multipart==0.0.20
+python-dotenv==1.0.1
 numpy
 tensorflow
 keras
+resend
 PyJWT==2.10.1
 passlib[bcrypt]==1.7.4
 bcrypt==4.0.1
